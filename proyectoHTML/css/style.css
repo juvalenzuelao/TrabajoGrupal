@@ -80,24 +80,28 @@ body {
 
 .offer-title {
   color: #28a745;
-  font-size: 24px;
+  font-size: 35px;
   font-weight: bold;
+  margin-top: -30px;
+  margin-bottom: 50px;
 }
 
 .price {
   font-size: 18px;
   margin: 10px 0;
+  
 }
 
 .precioAntes{
   color: #999;
-
+  margin-bottom: -10px;
 }
 
 .nuevoPrecio span {
   font-size: 24px;
   font-weight: bold;
   color: #28a745;
+  
 }
 
 /* Botones de selección de color */
