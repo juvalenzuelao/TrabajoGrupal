@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cuppon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+  <!-- Menú -->
+   
+  <!--navbar          : Convierte el <nav> en una barra de navegación -->
+  <!--navbar-expand-lg: Permite que la barra se expanda en pantallas grandes-->
+  <!--navbar-dark     : Aplica colores claro al texto sobre un fondo oscuro-->
+  <!--navbar-simple   : El nombre otorgado a esta clase-->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-simple">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">Cuppon</a>
+      <!--navbar-toggler: boton de menú desplegable
+          type          : mostrar el menú sin hacer otra accion
+          data-bs-toggle: este button controla un elemento que se puede colapsar (mostrar/ocular)
+          data-bs-target: cual elementos a colapsar 
+          navbar-toggler-icon: muestra un icon por defecto-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--collapse       : Funcionalidad de colapsar todo lo que este dentro de este div
+          navbar-collapse: Navegación adaptable ya sea en pantallas pequeñas o grandes
+          justify-content-end: contenido del menú a la derecha-->
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item">
+            <a class="nav-link disabled"  aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cartas de productos -->
+  <div class="container mt-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- row          : los elementos se organizan en columnas y se adaptan a diferentes pantallas
+           row-cols-1   : los elementos estarán uno debajo del otro
+           row-cols-md-3: en pantallas medianas o grandes los elementos estarán organizado en columnas de 3 por fila
+           g-4          : espacio entre las columnas -->
+      <div class="col">
+        <div class="card h-100">
+          <a href="venta.html">
+            <img src="./img/plumon.jpeg" class="imagen-carta" alt="Plumón">
+          </a>
+          <div class="card-body">
+            <p >
+              Plumón Coral Fleece estampado en modelo y tamaño a elección<br>
+              <small class="text-muted">Plumones Manolino <br>
+              <i class="bi bi-geo-alt"></i>9191 Avenida Vitacura, Chile</small>
+            </p>
+            <p class="text-muted "><small>$45.990</small> <strong style="color: #28a745;">$22.990</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/entrada.jpeg" class="imagen-carta" alt="Comida">
+          <div class="card-body">
+            <p >
+              Entrada + fondo + postre<br>
+              <small class="text-muted">V for Vegan <br>
+                <i class="bi bi-geo-alt"></i>777 Jesse Pinkman, Chile</small>
+                
+            </p>
+            <p class="text-muted"><small>$30.990</small> <strong style="color: #28a745;">$12.990</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/clinica.jpeg" class="imagen-carta" alt="Dentista">
+          <div class="card-body">
+            <p >
+              Limpieza + blanqueamiento dental<br>
+              <small class="text-muted">Clinica Dental Quijada <br>
+                <i class="bi bi-geo-alt"></i>1342, Blanco Encalada, Chile</small>
+            </p>
+            <p class="text-muted"><small>$300.000</small> <strong style="color: #28a745;">$25.990</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/colacion.jpeg" class="imagen-carta" alt="Colación">
+          <div class="card-body">
+            <p >
+              Colación para 2 personas + postre (no incluye bebidas)<br>
+              <small class="text-muted">Suricata almacen <br>
+                <i class="bi bi-geo-alt"></i>1071 Miguel Claro, Chile</small>
+            </p>
+            <p class="text-muted"><small>$4.200</small> <strong style="color: #28a745;">$2.100</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/stukids.jpeg" class="imagen-carta" alt="Stukids">
+          <div class="card-body">
+            <p >
+              1,2 o 4 tickets para Stukids. Elige sucursal<br>
+              <small class="text-muted">Stkids Centro de Eventos <br>
+              <i class="bi bi-geo-alt"></i>133 El tranque, Chile</small>
+            </p>
+            <p class="text-muted"><small>$4.000</small> <strong style="color: #28a745;">$2.500</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/atacama.jpeg" class="imagen-carta" alt="Atacama">
+          <div class="card-body">
+            <p>
+              San Pedro de Atacama: 1 o 2 noches en alojamiento a elección
+              <small class="text-muted">D-Latam Travel <br></small>
+            </p>
+            <p class="text-muted"><small>$80.200</small> <strong style="color: #28a745;">$44.100</strong></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Formulario -->
+  <div class="container my-5 formulario-verde">
+    <!-- my-5: un margen vertical
+         mb-3: margen inferior-->
+    <h3 class="text-center">Recibe cupones en tu correo</h3>
+    
+    <form class="mx-auto" style="max-width: 400px;">
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Nombre" required>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Correo Electronico" required>
+      </div>
+      <button type="submit" class="btn btn-success w-100">Enviar</button>
+    </form>
+  </div>
+
+  <!-- Pie de página -->
+  <!--p-4 : padding -->
+  <footer class="text-center p-4 bg-light">
+    <p class="fw-bold mb-0">Cuppon</p>
+    <small class="text-muted">© 2018 Cuppon Latam. Todos los derechos reservados.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
