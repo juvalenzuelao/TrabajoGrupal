@@ -26,7 +26,7 @@ body {
 }
 
 
-/* Style para la vista de VENTAS*/
+/* Style para la vista de plumonS*/
 .buscador{
   font-size: 14px;
   border-top-right-radius: 0;
@@ -39,7 +39,7 @@ body {
   border-bottom-left-radius: 0;
 }
 
-.ventaTitulo{
+.plumonTitulo{
   color: #28a745;
 }
 
@@ -69,7 +69,7 @@ body {
   }
 }
 
-/* Style para el contenedor de venta */
+/* Style para el contenedor de plumon */
 .product-info {
   background-color: white;
   padding: 90px;
