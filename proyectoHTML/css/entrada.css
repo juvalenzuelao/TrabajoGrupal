@@ -1,0 +1,131 @@
+/* Style para la vista de plumonS*/
+.buscador{
+  font-size: 14px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-right: 30px;
+}
+
+.search{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.plumonTitulo{
+  color: #28a745;
+}
+
+
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+
+/* icon control carousel  */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #999;
+}
+
+/* Responsive de las miniaturas*/
+@media (max-width: 768px) {
+  .thumbnail-container {
+    flex-direction: row; 
+    justify-content: space-around; 
+    gap: 10px;
+    height: auto; 
+    width: 100%; 
+  }
+
+  .thumbnail-container img {
+    width: 80px;
+    height: auto;
+  }
+}
+
+/* Style para el contenedor de plumon */
+.product-info {
+  background-color: white;
+  padding: 90px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+
+}
+
+.offer-title {
+  color: #28a745;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.precioAntes{
+  color: #999;
+
+}
+
+.nuevoPrecio span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+/* Botones de selección de color */
+.btn-info {
+  margin-top: 30px;
+}
+
+.color-btn {
+  padding: 10px 15px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+  
+}
+
+.plumon-gris {
+    background-color: #808080; 
+    border-color: #666; 
+}
+
+.plumon-morado {
+    background-color: #800080; 
+    border-color: #600060;
+}
+
+.plumon-verde {
+    background-color: #008000;
+    border-color: #006000;
+}
+
+.color-btn:hover {
+  opacity: 0.8;
+}
+
+/* Botones agregar/comprar */
+.action-buttons {
+  margin-top: 80px;
+}
+
+.action-buttons .btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.formulario-verde {
+    background-color: #28a745;
+    padding: 30px;
+    border-radius:10px;
+}
