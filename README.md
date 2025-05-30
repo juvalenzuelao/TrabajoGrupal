@@ -1,1 +1,1 @@
-Integrantes: Juan Valenzuela, Sebastian Gonzalez
+Integrantes: Juan Valenzuela
